@@ -1,0 +1,57 @@
+2026/05/04-15:47:26.004 2d2a Reusing MANIFEST /home/kenny/scripts/apollo_profile/Default/IndexedDB/https_app.apollo.io_0.indexeddb.leveldb/MANIFEST-000001
+2026/05/04-15:47:26.006 2d2a Recovering log #3
+2026/05/04-15:47:26.051 2d2a Reusing old log /home/kenny/scripts/apollo_profile/Default/IndexedDB/https_app.apollo.io_0.indexeddb.leveldb/000003.log 
+2026/05/04-15:48:11.592 2d2a Level-0 table #5: started
+2026/05/04-15:48:11.799 2d2a Level-0 table #5: 3733514 bytes OK
+2026/05/04-15:48:11.836 2d2a Delete type=0 #3
+2026/05/04-15:49:30.796 2d2a Level-0 table #7: started
+2026/05/04-15:49:30.884 2d2a Level-0 table #7: 3426018 bytes OK
+2026/05/04-15:49:30.950 2d2a Delete type=0 #4
+2026/05/04-15:49:31.011 2d2a Level-0 table #9: started
+2026/05/04-15:49:31.089 2d2a Level-0 table #9: 3628519 bytes OK
+2026/05/04-15:49:31.119 2d2a Delete type=0 #6
+2026/05/04-15:49:36.483 2d2a Level-0 table #11: started
+2026/05/04-15:49:36.575 2d2a Level-0 table #11: 2869821 bytes OK
+2026/05/04-15:49:36.669 2d2a Delete type=0 #8
+2026/05/04-15:49:36.840 2d2a Level-0 table #13: started
+2026/05/04-15:49:36.946 2d2a Level-0 table #13: 3955154 bytes OK
+2026/05/04-15:49:36.973 2d2a Delete type=0 #10
+2026/05/04-15:49:47.672 2d28 Compacting 3@0 + 1@1 files
+2026/05/04-15:49:47.909 2d28 Generated table #14@0: 1689 keys, 142938 bytes
+2026/05/04-15:49:47.909 2d28 Compacted 3@0 + 1@1 files => 142938 bytes
+2026/05/04-15:49:47.929 2d28 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/04-15:49:47.930 2d28 Delete type=2 #9
+2026/05/04-15:49:47.930 2d28 Delete type=2 #7
+2026/05/04-15:49:47.931 2d28 Delete type=2 #13
+2026/05/04-15:49:47.931 2d28 Delete type=2 #11
+2026/05/04-15:50:07.334 2d2a Level-0 table #16: started
+2026/05/04-15:50:07.424 2d2a Level-0 table #16: 3432600 bytes OK
+2026/05/04-15:50:07.498 2d2a Delete type=0 #12
+2026/05/04-15:50:07.721 2d28 Level-0 table #18: started
+2026/05/04-15:50:07.806 2d28 Level-0 table #18: 3724009 bytes OK
+2026/05/04-15:50:07.869 2d28 Delete type=0 #15
+2026/05/04-15:50:12.202 2d2f Compacting 2@0 + 1@1 files
+2026/05/04-15:50:12.251 2d2f Generated table #19@0: 2262 keys, 203865 bytes
+2026/05/04-15:50:12.252 2d2f Compacted 2@0 + 1@1 files => 203865 bytes
+2026/05/04-15:50:12.260 2d2f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/04-15:50:12.262 2d2f Delete type=2 #16
+2026/05/04-15:50:12.262 2d2f Delete type=2 #18
+2026/05/04-15:50:12.262 2d2f Delete type=2 #14
+2026/05/04-15:50:51.288 2d2a Compacting 1@1 + 1@2 files
+2026/05/04-15:50:51.344 2d2a Generated table #20@1: 153 keys, 186795 bytes
+2026/05/04-15:50:51.344 2d2a Compacted 1@1 + 1@2 files => 186795 bytes
+2026/05/04-15:50:51.399 2d2a compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/04-15:50:51.400 2d2a Delete type=2 #19
+2026/05/04-15:50:51.400 2d2a Delete type=2 #5
+2026/05/04-15:50:51.968 2d2a Level-0 table #22: started
+2026/05/04-15:50:52.054 2d2a Level-0 table #22: 3797331 bytes OK
+2026/05/04-15:50:52.082 2d2a Delete type=0 #17
+2026/05/04-15:50:53.077 2d2a Level-0 table #24: started
+2026/05/04-15:50:53.199 2d2a Level-0 table #24: 3618413 bytes OK
+2026/05/04-15:50:53.643 2d2a Delete type=0 #21
+2026/05/04-15:51:08.232 2d28 Compacting 1@0 + 1@1 files
+2026/05/04-15:51:08.291 2d28 Generated table #25@0: 1357 keys, 137879 bytes
+2026/05/04-15:51:08.291 2d28 Compacted 1@0 + 1@1 files => 137879 bytes
+2026/05/04-15:51:08.349 2d28 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/04-15:51:08.350 2d28 Delete type=2 #24
+2026/05/04-15:51:08.350 2d28 Delete type=2 #22

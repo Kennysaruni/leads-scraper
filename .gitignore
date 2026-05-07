@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Sensitive Data / Output
+*.csv
+AfrikLink_Weekly_Leads.csv
+
+# Selenium / Browser Profile Data
+apollo_profile/
+
+# Debugging / Logs
+*.log
+apollo_page_source.html
+
+# Environment Variables
+.env
