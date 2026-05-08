@@ -2,7 +2,7 @@ import requests
 import csv
 
 # --- CONFIGURATION ---
-API_KEY = 'yOkC2FTg7S0IRR-9b6St0g'  # Replace with your key
+API_KEY = 'xu6ItySVKMoEajHn10BR7w'  # Replace with your key
 TARGET_COMPANIES_COUNT = 50
 PEOPLE_PER_COMPANY = 3
 OUTPUT_FILE = 'AfrikLink_Outreach_Week1.csv'

@@ -8,6 +8,8 @@ __pycache__/
 # Sensitive Data / Output
 *.csv
 AfrikLink_Weekly_Leads.csv
+Filled_Outreach_Checklist_50_Companies (1).csv
+Outreach_Checklist_50_Companies (1).csv
 
 # Selenium / Browser Profile Data
 apollo_profile/
