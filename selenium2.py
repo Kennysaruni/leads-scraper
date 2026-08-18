@@ -6,10 +6,47 @@ import os
 
 # --- CONFIGURATION ---
 # Point to your profile folder so it stays logged in
-PROFILE_DIR = "/home/kenny/scripts/apollo_profile"
+PROFILE_DIR = "/home/kenny/scripts/apollo_profile_6"
 OUTPUT_FILE = "AfrikLink_Weekly_Leads.csv"
 
-def scrape_apollo(search_url, num_pages=5):
+# Reference files to avoid duplicates
+MASTER_OUTPUT_FILE = "Organized_Outreach_Leads.csv"
+OUTREACH_FILE = "12th August.csv"
+
+def get_existing_leads(*filenames):
+    existing_names = set()
+    existing_companies = set()
+    for filename in filenames:
+        if os.path.exists(filename):
+            try:
+                with open(filename, 'r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    fieldnames = reader.fieldnames or []
+                    
+                    # Normalize and find columns
+                    name_col = next((c for c in fieldnames if 'name' in c.lower() and 'company' not in c.lower()), None)
+                    company_col = next((c for c in fieldnames if 'company' in c.lower() and 'size' not in c.lower() and 'insight' not in c.lower()), None)
+    
+                    if not name_col and len(fieldnames) > 0:
+                        name_col = fieldnames[0]
+                    if not company_col and len(fieldnames) > 1:
+                        company_col = fieldnames[1]
+    
+                    if not name_col or not company_col:
+                        continue
+    
+                    for row in reader:
+                        name = row.get(name_col)
+                        company = row.get(company_col)
+                        if name:
+                            existing_names.add(str(name).strip().lower())
+                        if company:
+                            existing_companies.add(str(company).strip().lower())
+            except Exception as e:
+                print(f"Error reading reference file {filename}: {e}")
+    return existing_names, existing_companies
+
+def scrape_apollo(search_url, num_pages=5, existing_names=None, existing_companies=None):
     options = uc.ChromeOptions()
     options.add_argument(f"--user-data-dir={PROFILE_DIR}")
     options.add_argument("--no-sandbox")
@@ -65,6 +102,44 @@ def scrape_apollo(search_url, num_pages=5):
                     # Skip if it's likely a header row
                     if name == "Unknown Name" and company == "Unknown Company":
                         continue
+
+                    # Check duplicates (skip if name or company already exists)
+                    name_lower = name.strip().lower()
+                    company_lower = company.strip().lower()
+                    
+                    if name != "Unknown Name" and existing_names and name_lower in existing_names:
+                        print(f"Skipping duplicate lead by name: {name}")
+                        continue
+                    if company != "Unknown Company" and existing_companies and company_lower in existing_companies:
+                        print(f"Skipping duplicate company: {company}")
+                        continue
+
+                    # Find Country
+                    country = "N/A"
+                    try:
+                        country_elems = row.find_elements(By.CSS_SELECTOR, '[aria-colindex="11"], .zp_OHzjX')
+                        for elem in country_elems:
+                            txt = elem.text.strip()
+                            if txt:
+                                if "," in txt:
+                                    country = txt.split(",")[-1].strip()
+                                else:
+                                    country = txt
+                                break
+                    except Exception as e:
+                        print(f"Error extracting country: {e}")
+                        
+                    # Find Industry
+                    industry = "N/A"
+                    try:
+                        industry_elems = row.find_elements(By.CSS_SELECTOR, '[aria-colindex="13"], .zp_z4aAi')
+                        for elem in industry_elems:
+                            txt = elem.text.strip()
+                            if txt:
+                                industry = txt
+                                break
+                    except Exception as e:
+                        print(f"Error extracting industry: {e}")
                         
                     # Attempt to find LinkedIn URL
                     linkedin_url = "N/A"
@@ -80,7 +155,9 @@ def scrape_apollo(search_url, num_pages=5):
                         'company': company,
                         'title': title,
                         'linkedin': linkedin_url,
-                        'insight': "Leveraging wage disparities with high-tier Kenyan technical talent."
+                        'insight': "Leveraging wage disparities with high-tier Kenyan technical talent.",
+                        'country': country,
+                        'industry': industry
                     })
                     page_results += 1
                 except Exception as e:
@@ -108,18 +185,46 @@ def scrape_apollo(search_url, num_pages=5):
         driver.quit()
 
 def save_to_csv(leads):
-    fieldnames = ['3 Decision maker Contact name', 'Company name', 'Position', 'LinkedIn URL', 'Insight from the company']
-    with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
+    file_exists = os.path.exists(OUTPUT_FILE) and os.path.getsize(OUTPUT_FILE) > 0
+    
+    fieldnames = []
+    if file_exists:
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                fieldnames = next(reader, [])
+        except Exception as e:
+            print(f"Error reading existing output file: {e}")
+            
+    if not fieldnames:
+        fieldnames = ['3 Decision maker Contact name', 'Company name', 'Position', 'LinkedIn URL', 'Insight from the company', 'Country', 'Industry']
+        
+    with open(OUTPUT_FILE, 'a' if file_exists else 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+        if not file_exists:
+            writer.writeheader()
+            
         for lead in leads:
-            writer.writerow({
-                '3 Decision maker Contact name': lead['name'],
-                'Company name': lead['company'],
-                'Position': lead['title'],
-                'LinkedIn URL': lead.get('linkedin', 'N/A'),
-                'Insight from the company': lead['insight']
-            })
+            row_data = {}
+            for field in fieldnames:
+                f_lower = field.lower()
+                if '3 decision maker' in f_lower or ('name' in f_lower and 'company' not in f_lower):
+                    row_data[field] = lead['name']
+                elif 'company' in f_lower and 'size' not in f_lower and 'insight' not in f_lower:
+                    row_data[field] = lead['company']
+                elif 'position' in f_lower or 'title' in f_lower:
+                    row_data[field] = lead['title']
+                elif 'linkedin' in f_lower or 'url' in f_lower:
+                    row_data[field] = lead.get('linkedin', 'N/A')
+                elif 'insight' in f_lower and 'link' not in f_lower:
+                    row_data[field] = lead['insight']
+                elif 'country' in f_lower or 'location' in f_lower:
+                    row_data[field] = lead.get('country', 'N/A')
+                elif 'industry' in f_lower:
+                    row_data[field] = lead.get('industry', 'N/A')
+                else:
+                    row_data[field] = ''
+            writer.writerow(row_data)
 
 if __name__ == "__main__":
     url = input("Please paste your Apollo search URL here: ").strip()
@@ -129,9 +234,15 @@ if __name__ == "__main__":
         pages_to_scrape = input("How many pages do you want to scrape? (default 5): ").strip()
         pages = int(pages_to_scrape) if pages_to_scrape.isdigit() else 5
         
-        leads = scrape_apollo(url, num_pages=pages)
+        # Load leads from all relevant files to avoid any duplicates
+        existing_names, existing_companies = get_existing_leads(MASTER_OUTPUT_FILE, OUTPUT_FILE, OUTREACH_FILE)
+        
+        if existing_names or existing_companies:
+            print(f"Found {len(existing_names)} existing names and {len(existing_companies)} existing companies to avoid duplicating.")
+        
+        leads = scrape_apollo(url, num_pages=pages, existing_names=existing_names, existing_companies=existing_companies)
         if leads:
             save_to_csv(leads)
-            print(f"Success! {len(leads)} leads saved to {OUTPUT_FILE}")
+            print(f"Success! {len(leads)} new leads saved to {OUTPUT_FILE}")
         else:
-            print("No leads captured. Ensure you are logged in and the search results are visible.")
+            print("No new leads captured. They might all be duplicates or the search results failed.")
