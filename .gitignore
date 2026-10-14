@@ -1,22 +1,32 @@
 # Virtual Environment
 venv/
+.venv/
 
 # Python Cache
 __pycache__/
 *.py[cod]
 
-# Sensitive Data / Output
-*.csv
-AfrikLink_Weekly_Leads.csv
-Filled_Outreach_Checklist_50_Companies (1).csv
-Outreach_Checklist_50_Companies (1).csv
-
-# Selenium / Browser Profile Data
+# Selenium, Browser Profiles & WebDrivers
 apollo_profile/
+apollo_profile_*/
+chromedriver*
+*.zip
 
-# Debugging / Logs
+# Debugging, Screenshots & HTML/JSON Dumps
 *.log
-apollo_page_source.html
+*.html
+*.png
+*.jpg
+*.jpeg
+*.json
+*.txt
+*Zone.Identifier
 
-# Environment Variables
+# Environment & Local IDE
 .env
+.idea/
+.vscode/
+
+# CSV Handling: Ignore temporary/raw CSVs, but allow curated deliverables in output/
+*.csv
+!output/*.csv

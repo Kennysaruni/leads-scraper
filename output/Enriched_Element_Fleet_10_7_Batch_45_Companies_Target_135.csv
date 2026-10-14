@@ -1,0 +1,136 @@
+﻿Company,Position,Name,LinkedIn Profile,Email,Action
+Gas Terminalling,Chief Executive Officer,Felix Ekundayo,,felixekundayo@gasterminalling.com,FOUND
+Gas Terminalling,Deputy Plant Manager,Paul U,,paulu@gasterminalling.com,FOUND
+Gas Terminalling,Chief Information Officer,Moses David,,mosesdavid@gasterminalling.com,FOUND
+ABC Logistics,Managing Director,Peter Mezek,http://www.linkedin.com/in/peter-mezek,peter.mezek@abcl.eu,EMAIL UNLOCKED
+ABC Logistics,Chief Executive Officer,Geetika Singh,http://www.linkedin.com/in/geetikasinghabc,geetika.singh@abcl.eu,DEDUCED FROM PATTERN (first.last@abcl.eu)
+ABC Logistics,General Manager,Valeria Gamarra Mines,http://www.linkedin.com/in/valeria-gamarra-mines-b56509123,valeria.mines@abcl.eu,DEDUCED FROM PATTERN (first.last@abcl.eu)
+JOF Nigeria Limited,"General Manager, Warehousing and Inventory Management",Rotimi Owope,,rotimi.owope@jofnigeria.com,FOUND
+JOF Nigeria Limited,General Manager,Rajesh Mehta,,rajesh.mehta@jofnigeria.com,FOUND
+JOF Nigeria Limited,Head Of Operations,Godfrey Igbinedion,,godfrey.igbinedion@jofnigeria.com,FOUND
+EBENCO GLOBAL LINK LIMITED,Managing Director,Ebenezer Oluwagbemiga,,ebenezer.oluwagbemiga@ebencogroupltd.com,FOUND
+EBENCO GLOBAL LINK LIMITED,Logistics Manager,Edna Berlin,,edna.berlin@ebencogroupltd.com,FOUND
+EBENCO GLOBAL LINK LIMITED,Chief Executive Officer,Precious Ebikade,,precious.ebikade@ebencogroupltd.com,FOUND
+Skyway Aviation handling company Plc  (SAHCO),General Manager Cargo Services,Donald Adekunle,,donald.adekunle@sahcoplc.com,FOUND
+Skyway Aviation handling company Plc  (SAHCO),Director Cargo Services,Boma Ukwunna,,boma.ukwunna@sahcoplc.com,FOUND
+Skyway Aviation handling company Plc  (SAHCO),"Assistant General Manager, GSE Maintenance & Fleet Operations",Olabimtan Seun,,olabimtan.seun@sahcoplc.com,FOUND
+Rubis Asphalt Nigeria Limited,Managing Director,Dave Bulck,,dave.bulck@rubis.com,FOUND
+Rubis Asphalt Nigeria Limited,Managing Director,Philippe Goron,,philippe.goron@rubis.com,FOUND
+Rubis Asphalt Nigeria Limited,Chief Financial Officer,Gilles Bresson,,gilles.bresson@rubis.com,FOUND
+ENYO Retail & Supply,Plant Manager,Kelechi Okpo,,kelechi.okpo@enyoretail.com,FOUND
+ENYO Retail & Supply,LPG Plant Manager,Blessing Atikpo,,blessing.a@enyoretail.com,FOUND
+ENYO Retail & Supply,Chief Executive Officer,Abiola Babatunde,,abiola.babatunde@enyoretail.com,FOUND
+Bill Energy Services Limited,MD/CEO,Ifeanyi Orakwue,http://www.linkedin.com/in/ifeanyi-o-13645654,i.orakwue@billenergyservices.com,EMAIL UNLOCKED
+Bill Energy Services Limited,"General Manager, Corporate Services",Charles Obera,http://www.linkedin.com/in/charles-obera-fcipm-a0253211,c.obera@billenergyservices.com,EMAIL UNLOCKED
+Bill Energy Services Limited,Operations Team Lead,Baki Yomade,http://www.linkedin.com/in/yomade-baki,b.yomade@billenergyservices.com,EMAIL UNLOCKED
+Fortune Global Shipping and Logistics Limited,Managing Director/CEO,Eric Opah,,eric.opah@fglobalshipping.com,FOUND
+Fortune Global Shipping and Logistics Limited,Deputy Managing Director,Patrick Anyatonwu,,patrick.anyatonwu@fglobalshipping.com,FOUND
+Fortune Global Shipping and Logistics Limited,"General Manager, Operations",Austin Uche,,austin.uche@fglobalshipping.com,FOUND
+AAJ EXPRESS LOGISTICS,Chief Financial Officer,Oluwasegun Adeoti,,oluwasegun.adeoti@aajexpress.org,FOUND
+AAJ EXPRESS LOGISTICS,Regional Manager (Logistics),Hamzat Idowu,,hamzat.idowu@aajexpress.org,FOUND
+AAJ EXPRESS LOGISTICS,Operations Manager,Oluwaseun Alabi,,oluwaseun.alabi@aajexpress.org,FOUND
+Chisco Transport Nigeria Limited,Managing Director; Fleet Manager,"Chief Dr. Chidi Anyaegbu, MFR",,chiscoenergy@chiscogroupng.com,FOUND
+Chisco Transport Nigeria Limited,"Executive Director & CEO, Chisco Transport",Obinna Anyaegbu,,obinnaanyaegbu@chiscogroupng.com,FOUND
+Chisco Transport Nigeria Limited,Operations & Fleet Director,Chidiebere Anyaegbu,,chidiebere.anyaegbu@chiscogroupng.com,FOUND
+Asharami Synergy,Chief Operating Officer,Adekanmi Adesola,---,adekanmi.adesola@asharamisynergy.com,EMAIL UNLOCKED
+Asharami Synergy,Operations Manager,Victor Awe,---,victor.awe@asharamisynergy.com,DEDUCED FROM PATTERN (first.last@asharamisynergy.com)
+Asharami Synergy,Terminal Operations Manager,Ikechukwu Diala,---,ikechukwu.diala@asharamisynergy.com,EMAIL UNLOCKED
+Tulcan Energy Resources Limited,Managing Director/CEO,'Tayo Adiatu,http://www.linkedin.com/in/dr-tayo-adeyemi-adiatu-93012a72,tayoadiatu@tulcanenergy.com,EMAIL UNLOCKED
+Tulcan Energy Resources Limited,Executive Director,Adeyinka Olasoko,http://www.linkedin.com/in/adeyinka-olasoko-phd-63194163,adeyinkaolasoko@tulcanenergy.com,EMAIL UNLOCKED
+Tulcan Energy Resources Limited,Head Trade &Treasury (Uk & Mauritius),Ayotomiwa Maduekwe,http://www.linkedin.com/in/ayotomiwa-maduekwe-50a72b97,a.okesola@tulcanenergy.com,EMAIL UNLOCKED
+Libra Motors Limited,Transportation Manager,Onyekachi Okoro,http://www.linkedin.com/in/onyekachi-okoro-b-sc-b770b4234,onyekachi.okoro@libmot.com,DEDUCED FROM PATTERN (first.last@libmot.com)
+Libra Motors Limited,Head of Operations Leading Business Operations,Uzochukwu Ndefo,http://www.linkedin.com/in/uzochukwu-ndubuisi-ndefo-20125b193,uzochukwu.ndefo@libmot.com,EMAIL UNLOCKED
+Libra Motors Limited,Terminal Manager,Sandra Kwentua,http://www.linkedin.com/in/sandra-kwentua-7ba908253,sandra.kwentua@libmot.com,DEDUCED FROM PATTERN (first.last@libmot.com)
+PE Energy Ltd,"General Manager, Process and Technologies",Emamode Eyawo,,e.eyawo@pe-ng.com,FOUND
+PE Energy Ltd,General Manager,Vincent Lori,,v.lori@pe-ng.com,FOUND
+PE Energy Ltd,Supply Chain & Logistics Lead,Ifeanyi Nwafor,,i.nwafor@pe-ng.com,FOUND
+Nikky Taurus Nigeria Limited,Managing Director,Adenike Ibirogba,http://www.linkedin.com/in/adenike-ibirogba-49160650,adenike.ibirogba@nikkytaurus.com,EMAIL UNLOCKED
+Nikky Taurus Nigeria Limited,General Manager,Akinyemi Bankole,http://www.linkedin.com/in/akinyemi-bankole-6807a114,akinyemi.bankole@nikkytaurus.com,EMAIL UNLOCKED
+Nikky Taurus Nigeria Limited,Executive Director,Ayowande Ayo,---,ayowande.ayo@nikkytaurus.com,DEDUCED FROM PATTERN (first.last@nikkytaurus.com)
+Creseada International Limited,General Manager,Joseph Akubueze,---,joseph.akubueze@creseada.com,DEDUCED FROM PATTERN (first.last@creseada.com)
+Creseada International Limited,Logistics Manager,Ojelabi Emmanuel,---,ojelabi.emmanuel@creseada.com,DEDUCED FROM PATTERN (first.last@creseada.com)
+Creseada International Limited,Freight Services Manager,Anthony Ossai,http://www.linkedin.com/in/anthony-ossai-47655b26,bm.phc@creseada.com,EMAIL UNLOCKED
+GUO TRANSPORT LTD,Operations Manager,Maduabuchukwu Okeke,,martins.okoroigwe@guotransport.com,FOUND
+GUO TRANSPORT LTD,Head of HR & Operations,Okoroigwe Martins,,martins.okoroigwe@guotransport.com,FOUND
+GUO TRANSPORT LTD,Executive Director - Fleet Assets,Kenechukwu Okeke,,kene.okeke@guotransport.com,FOUND
+Pebnic Ventures Limited,Managing Director & Founding CEO,Funso Soyoye,---,funso.soyoye@pebnic.com,EMAIL UNLOCKED
+Pebnic Ventures Limited,Regional Logistics Manager - North.,Ako Gbenga,http://www.linkedin.com/in/ako-gbenga-01472615a,ako.gbenga@pebnic.com,EMAIL UNLOCKED
+Pebnic Ventures Limited,Site Safety and Logistics Manager,Udoka Albert,---,udoka.albert@pebnic.com,DEDUCED FROM PATTERN (first.last@pebnic.com)
+Multiplan Nigeria Limited,Procurement Manager,Freke Efiok,---,freke@multiplanng.com,DEDUCED FROM PATTERN (first@multiplanng.com)
+Multiplan Nigeria Limited,"Head of IT, Department",Jeff Osanebi,http://www.linkedin.com/in/jeff-osanebi,jeff@multiplanng.com,EMAIL UNLOCKED
+Multiplan Nigeria Limited,Warehouse / Inventory Planning Lead,Samuel Nwosu,http://www.linkedin.com/in/samuel-nwosu-b5866718,samuel.nwosu@multiplanng.com,EMAIL UNLOCKED
+AYM SHAFA HOLDINGS LIMITED,"Executive Director Gas, Power and Renewable Energy",Teryima Toryila,http://www.linkedin.com/in/teryima-denen-toryila-55a9a9a1,t.toryila@aymshafaholdings.com,EMAIL UNLOCKED
+AYM SHAFA HOLDINGS LIMITED,MD/COO,Ahmad Abdullahi,---,a.ahmad@aymshafaholdings.com,EMAIL UNLOCKED
+AYM SHAFA HOLDINGS LIMITED,Senior Fleet Supervisor,Yunusa Nuhu,---,y.nuhu@aymshafaholdings.com,EMAIL UNLOCKED
+ENL Consortium Limited,Managing Director,Bolanle Onagoruwa,http://www.linkedin.com/in/bolanle-onagoruwa-6935a4244,bolanle.onagoruwa@enlconsortium.com,EMAIL UNLOCKED
+ENL Consortium Limited,General Manager,Adesina Fnse,---,adesina.fnse@enlconsortium.com,DEDUCED FROM PATTERN (first.last@enlconsortium.com)
+ENL Consortium Limited,General Manager,QS Fniqs,---,qs.fniqs@enlconsortium.com,EMAIL UNLOCKED
+Homeland Integrated Offshore Services Limited,Chief Executive Officer,Louis Ekere,---,louis.ekere@hiosl.com,EMAIL UNLOCKED
+Homeland Integrated Offshore Services Limited,General Manager,Godwin Idjebor,http://www.linkedin.com/in/godwin-idjebor-265856110,godwin.idjebor@hiosl.com,EMAIL UNLOCKED
+Homeland Integrated Offshore Services Limited,Operations Manager,Emeka Akam,http://www.linkedin.com/in/emeka-akam-528072142,emeka.akam@hiosl.com,EMAIL UNLOCKED
+IAL Nigeria,Chairman/Managing Director,Ismail Lawal,http://www.linkedin.com/in/ismail-lawal-13b80610,ismail@ialnigeria.com,EMAIL UNLOCKED
+IAL Nigeria,Full Operations Manager,Olubanjo Emmanuel,http://www.linkedin.com/in/olubanjo-morenikeji-emmanuel-97b431186,olubanjo@ialnigeria.com,DEDUCED FROM PATTERN (first@ialnigeria.com)
+IAL Nigeria,Logistics/Branch Operations Supervisor,Kelechi Duru,http://www.linkedin.com/in/kelechi-ernest-duru-2384b1182,kelechi@ialnigeria.com,DEDUCED FROM PATTERN (first@ialnigeria.com)
+Africa Access 3PL Limited,Director of Operations and Logistics,Jeremiah Citm,http://www.linkedin.com/in/jeremiah-adeoye-citm-cilt-adv-ciota-2187a5181,j.citm@africaaccess3pl.com,DEDUCED FROM PATTERN (f.last@africaaccess3pl.com)
+Africa Access 3PL Limited,Director of Operations,Henk Tittel,---,h.tittel@africaaccess3pl.com,DEDUCED FROM PATTERN (f.last@africaaccess3pl.com)
+Africa Access 3PL Limited,Commercial Manager,Avnish Chugh,http://www.linkedin.com/in/avnish-chugh-554a5291,a.chugh@africaaccess3pl.com,EMAIL UNLOCKED
+PETROSTUFF NIGERIA LIMITED,Managing Director,Emmanuel Orim,---,emmanuelorim@petrostuffltd.com,DEDUCED FROM PATTERN (firstlast@petrostuffltd.com)
+PETROSTUFF NIGERIA LIMITED,Executive Director,Victoria Orim,---,victoriaorim@petrostuffltd.com,DEDUCED FROM PATTERN (firstlast@petrostuffltd.com)
+PETROSTUFF NIGERIA LIMITED,"Manager, Business Development & Operations",Taiwo Joseph,http://www.linkedin.com/in/taiwojoseph,taiwojoseph@petrostuffltd.com,EMAIL UNLOCKED
+ZIRCON MARINE LIMITED,Director of Business Development,Belynda Okoye,http://www.linkedin.com/in/belynda-okoye-13b41634,Unavailable,Email Load Timeout
+ZIRCON MARINE LIMITED,Ass Manager( Shipping Container Operations),Murugan A,http://www.linkedin.com/in/murugan-a-4981701bb,Unavailable,Email Load Timeout
+ZIRCON MARINE LIMITED,---,No Lead Found,---,---,EXHAUSTED
+RATCON Construction Company Ltd.,Managing Director,Fouad Howayek,---,fouadhowayek@ratconconstruction.com,DEDUCED FROM PATTERN (firstlast@ratconconstruction.com)
+RATCON Construction Company Ltd.,General Manager Operations,Jimmy Saad,http://www.linkedin.com/in/jimmy-saad-297723253,jimmysaad@ratconconstruction.com,EMAIL UNLOCKED
+RATCON Construction Company Ltd.,Procurement Manager,Hicham Nicolas,---,hichamnicolas@ratconconstruction.com,DEDUCED FROM PATTERN (firstlast@ratconconstruction.com)
+Pamtech Group,Group General Manager,Ozioma Megwa,---,ozioma.megwa@pamtechgroup.com,EMAIL UNLOCKED
+Pamtech Group,Operations Manager,Chukwunyere Igbokwe,http://www.linkedin.com/in/chukwunyere-christian-igbokwe-aa6310192,chukwunyere.igbokwe@pamtechgroup.com,EMAIL UNLOCKED
+Pamtech Group,Media Operations Manager,Peter Smart,---,peter.smart@pamtechgroup.com,EMAIL UNLOCKED
+Airwater Cargo Services Limited,Transport Manager,Alli Waheed,http://www.linkedin.com/in/alli-waheed-331414b8,Unavailable,Email Load Timeout
+Airwater Cargo Services Limited,Business Development Manager,Moses Victor,http://www.linkedin.com/in/moses-victor-805169aa,Unavailable,Email Load Timeout
+Airwater Cargo Services Limited,Business Development Manager,Victoria Ubi,http://www.linkedin.com/in/victoria-ubi-a4b87a2bb,Unavailable,Email Load Timeout
+Sobaz Group,Fleet Supervisor,Peace Oluchi,---,peace.oluchi@sobazgroup.com,DEDUCED FROM PATTERN (first.last@sobazgroup.com)
+Sobaz Group,Director of Operations,Chisom Lawson,---,chisom.lawson@sobazgroup.com,EMAIL UNLOCKED
+Sobaz Group,Finance Supervisor,Edor Eunan,http://www.linkedin.com/in/edor-eunan-75577770,edor.eunan@sobazgroup.com,EMAIL UNLOCKED
+Comet Shipping Agencies Nigeria Limited,Director/Country Manager,Kevin Illston,http://www.linkedin.com/in/kevin-illston-67539b56,kevin.illston@nalcomet.com,DEDUCED FROM PATTERN (first.last@nalcomet.com)
+Comet Shipping Agencies Nigeria Limited,General Manager,Gurnam Singh,---,gurnam.singh@nalcomet.com,DEDUCED FROM PATTERN (first.last@nalcomet.com)
+Comet Shipping Agencies Nigeria Limited,Logistics Manager,Ganesh Nadar,---,ganesh.nadar@nalcomet.com,EMAIL UNLOCKED
+PRIME SOURCES LIMITED,General Manager(Audit & Credit Control),Sunnie Ogbulio,---,Unavailable,Email Load Timeout
+PRIME SOURCES LIMITED,"IT Telecom, Executive Director, Consultant",Faith Gelemu,---,Unavailable,Email Load Timeout
+PRIME SOURCES LIMITED,Chief Financial Officer,Ogbuagu Ernest,---,Unavailable,Email Load Timeout
+Empire Energy Limited,General Manager,Donatus Nnamani,---,nnamani.donatus@empireenergyltd.com,EMAIL UNLOCKED
+Empire Energy Limited,President,Mike Milledge,http://www.linkedin.com/in/mike-m-64138399,mike.milledge@empireenergypartners.com,EMAIL UNLOCKED
+Empire Energy Limited,President,Marvin Roderman,http://www.linkedin.com/in/marvin-roderman-7aa32b37,marvin@empireenergycompany.com,EMAIL UNLOCKED
+Swift Oil,Group General Manager - Commercial,Adetoke George-Toyon,---,adetoke.georgetoyon@swiftoil-ltd.com,DEDUCED FROM PATTERN (first.last@swiftoil-ltd.com)
+Swift Oil,General Manager,Emmanuel Alabi,---,emmanuel.alabi@swiftoil-ltd.com,DEDUCED FROM PATTERN (first.last@swiftoil-ltd.com)
+Swift Oil,Finance Manager,Lukman Taiwo,http://www.linkedin.com/in/lukman-taiwo-a17629101,lukman.taiwo@swiftoil-ltd.com,EMAIL UNLOCKED
+EBPM LOGISTICS LTD,Head de Operações (Head of Operations),Julia Ratto,---,julia@ebpm.com.br,EMAIL UNLOCKED
+EBPM LOGISTICS LTD,Marketing Director,Jing Meng,---,jing@ebpm.com.br,DEDUCED FROM PATTERN (first@ebpm.com.br)
+EBPM LOGISTICS LTD,---,No Lead Found,---,no@ebpm.com.br,DEDUCED FROM PATTERN (first@ebpm.com.br)
+TTP Ltd,Technical Director,Tu Nguyen,---,Unavailable,Email Load Timeout
+TTP Ltd,Project Director,Lillian C,---,Unavailable,Email Load Timeout
+TTP Ltd,Director,Ttp Am,---,Unavailable,Email Load Timeout
+WAMS,General Manager,Giorgio Pregel,---,Unavailable,Email Load Timeout
+WAMS,---,No Lead Found,---,---,EXHAUSTED
+WAMS,---,No Lead Found,---,---,EXHAUSTED
+Zenith Carex International Limited,Operations Manager,Collins Okoro Onyekachi,,collins.okoro@zenithcarex.com,FOUND
+Zenith Carex International Limited,Head of Operations,Omorinola Olayemi,,omorinola.olayemi@zenithcarex.com,FOUND
+Zenith Carex International Limited,Managing Director / CEO,Adelana Olamilekan,,adelana.olamilekan@zenithcarex.com,FOUND
+Ghadco Nigeria Limited,Logistics Manager,Ojerinde O,---,Unavailable,Email Load Timeout
+Ghadco Nigeria Limited,Operations Manager,Hassan Yassine,---,Unavailable,Email Load Timeout
+Ghadco Nigeria Limited,Regional Commercial Manager,Azam Siddiqui,---,Unavailable,Email Load Timeout
+Continental Logistics Limited,MD/ CEO,Mike Mornu,---,mike.mornu@continentallogisticsng.com,EMAIL UNLOCKED
+Continental Logistics Limited,General Manager,Gyll Gageatu,---,gyll_gageatu@roclg.ro,EMAIL UNLOCKED
+Continental Logistics Limited,President,Chad Nielson,---,chad@continentallogistics.ca,EMAIL UNLOCKED
+EPS COURIER (EKESON PARCEL SERVICES Ltd,Logistics Manager,Eromosele Okoeguale,---,Unavailable,Email Load Timeout
+EPS COURIER (EKESON PARCEL SERVICES Ltd,Sales and Logistics Manager,Daniel Falade,---,Unavailable,Email Load Timeout
+EPS COURIER (EKESON PARCEL SERVICES Ltd,Head Logistics/Cargo Distribution,Chijioke Nwankwo,---,Unavailable,Email Load Timeout
+Mandilas Enterprises Limited,"P A General Manager,",Elizabeth Francis,http://www.linkedin.com/in/elizabeth-francis-a6840524,Unavailable,Email Load Timeout
+Mandilas Enterprises Limited,Operations Manager,Emmanuel Okoye,http://www.linkedin.com/in/emmanuel-okoye-a66138143,Unavailable,Email Load Timeout
+Mandilas Enterprises Limited,Commercial Manager,Bello Fati,http://www.linkedin.com/in/bello-fati-issa-bsc-msc-acim-77bb161b,Unavailable,Email Load Timeout
+NBTC LTD,General Manager Kuwait Operations,Prince John,http://www.linkedin.com/in/prince-john-18ab9515,prince.john@nbtc-group.com,DEDUCED FROM PATTERN (first.last@nbtc-group.com)
+NBTC LTD,General Manager,Nishchal Agrawal,http://www.linkedin.com/in/nishchal-agrawal-9b00403,nishchal.agrawal@nbtc-group.com,EMAIL UNLOCKED
+NBTC LTD,"General Manager, Procurement & Mmd",Uttam William,http://www.linkedin.com/in/uttam-william-74578143,uttam.william@nbtc-group.com,EMAIL UNLOCKED
+Afriglobal Logistics,Chief Executive Officer,Sunil Duggal,http://www.linkedin.com/in/sunil-duggal-01420821,sunil.duggal@afriglobal-logistics.com,EMAIL UNLOCKED
+Afriglobal Logistics,Assistant Logistics Manager,Olumide Fasuyi,http://www.linkedin.com/in/olumide-fasuyi-65664b271,olumide.fasuyi@afriglobal-logistics.com,DEDUCED FROM PATTERN (first.last@afriglobal-logistics.com)
+Afriglobal Logistics,Fleet Manager,Abdullahi Shehu,http://www.linkedin.com/in/abdullahi-shehu-b9330927b,abdullahi.shehu@afriglobal-logistics.com,DEDUCED FROM PATTERN (first.last@afriglobal-logistics.com)
